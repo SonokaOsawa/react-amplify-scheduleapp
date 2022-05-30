@@ -7,8 +7,8 @@ import { AuthState, onAuthUIStateChange } from "@aws-amplify/ui-components";
 import awsconfig from "./aws-exports";
 
 import Header from "./components/layouts/Header";
-// import { Calendar } from "./components/calendar/Calendar";
-// import { EditSchedule } from "./components/calendar/EditSchedule";
+import { Calendar } from "./components/calendar/Calendar";
+import { EditSchedule } from "./components/calendar/EditSchedule";
 // import { InputForm } from "./components/householdAccountBook/InputForm";
 // import { Category } from "./components/householdAccountBook/Category";
 // import { AddCategory } from "./components/householdAccountBook/AddCategory";
@@ -60,8 +60,8 @@ const App: React.FC = () => {
       <UserContext.Provider value={{ userInfo, setCurrentUser }}>
         <Header />
         <Switch>
-          {/* <Route exact path="/EditSchedule" component={EditSchedule} />
-          <Route exact path="/InputAOM" component={InputForm} />
+          <Route exact path="/EditSchedule" component={EditSchedule} />
+          {/* <Route exact path="/InputAOM" component={InputForm} />
           <Route
             exact
             path="/HouseholdCalendar"
@@ -70,8 +70,8 @@ const App: React.FC = () => {
           <Route exact path="/Expense" component={Expense} />
           <Route exact path="/Categories" component={Category} />
           <Route exact path="/Addcategory" component={AddCategory} />
-          <Route exact path="/EditData" component={EditData} />
-          <Route exact path="/" component={Calendar} /> */}
+          <Route exact path="/EditData" component={EditData} /> */}
+          <Route exact path="/" component={Calendar} />
         </Switch>
       </UserContext.Provider>
     </Router>

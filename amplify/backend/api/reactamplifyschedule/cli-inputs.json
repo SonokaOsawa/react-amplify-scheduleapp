@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "reactamplifyschedule",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/sonoka/Desktop/react-amplify-scheduleapp/amplify/backend/api/reactamplifyschedule/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authreactamplifyschedule94fcf9ee"
+    }
+  }
+}
