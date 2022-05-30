@@ -42,7 +42,7 @@ const Header: React.FC = () => {
         >
           スケジュール
         </Button>
-        <Menu>
+        {/* <Menu>
           <MenuButton
             as={Button}
             rightIcon={<ChevronDownIcon />}
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
               <MenuItem color="black">貯金</MenuItem>
             </MenuGroup>
           </MenuList>
-        </Menu>
+        </Menu> */}
       </Box>
       <Spacer />
       <Box textAlign="center" mr={4}>
